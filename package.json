@@ -1,0 +1,18 @@
+{
+  "name": "push-to-github-action",
+  "version": "1.0.0",
+  "description": "Push to Github Action",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonycalsin/push-to-github-action.git"
+  },
+  "keywords": [],
+  "author": "Yony Calsin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yonycalsin/push-to-github-action/issues"
+  },
+  "homepage": "https://github.com/yonycalsin/push-to-github-action#readme"
+}
