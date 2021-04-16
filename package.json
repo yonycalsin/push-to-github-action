@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Push to Github Action",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "dockerlint Dockerfile"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yonycalsin/push-to-github-action.git"
@@ -14,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/yonycalsin/push-to-github-action/issues"
   },
-  "homepage": "https://github.com/yonycalsin/push-to-github-action#readme"
+  "homepage": "https://github.com/yonycalsin/push-to-github-action#readme",
+  "dependencies": {
+    "dockerlint": "^0.3.9"
+  }
 }
