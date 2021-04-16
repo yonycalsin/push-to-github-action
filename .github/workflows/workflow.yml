@@ -19,6 +19,6 @@ jobs:
           npm test
       - uses: zbeekman/ShellCheck-Linter-Action@v1.0.1
         name: shell linter
-      - uses: yonycalsin/push-to-github-action@master
+      - uses: yonycalsin/push-to-github-action@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
