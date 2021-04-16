@@ -1,0 +1,16 @@
+name: "Push to Github Action"
+description: "Push to Github Action"
+author: "Yony Calsin"
+runs:
+  using: "composite"
+  steps:
+    - run: $/entrypoint.sh
+      shell: bash
+branding:
+  color: "yellow"
+  icon: "bell"
+inputs:
+  branch:
+    description: "Branch Name"
+    required: false
+    default: "main"
